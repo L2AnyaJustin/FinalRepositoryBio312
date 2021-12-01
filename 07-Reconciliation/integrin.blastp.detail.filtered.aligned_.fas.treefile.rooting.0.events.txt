@@ -1,0 +1,75 @@
+COST: 54.0
+
+
+Duplications
+Gene                L. Bound            U. Bound            
+=================== =================== =================== 
+n69                 Bilateria           Eumetazoa
+n77                 Bilateria           Eumetazoa
+n74                 Hsapiens            Chordata
+n72                 Hsapiens            Chordata
+n85                 Bilateria           Eumetazoa
+n84                 Hsapiens            Chordata
+n82                 Hsapiens            Chordata
+n80                 Hsapiens            Chordata
+n87                 Bilateria           Eumetazoa
+n94                 Myessoensis         Bilateria
+n92                 Myessoensis         Bilateria
+n90                 Myessoensis         Bilateria
+n99                 Bbelcheri           Chordata
+n35                 Bbelcheri           Chordata
+n33                 Bbelcheri           Chordata
+n29                 Bbelcheri           Chordata
+n32                 Bbelcheri           Chordata
+n40                 Aplanci             Deuterostomia
+n38                 Aplanci             Deuterostomia
+n68                 Cnidaria            Eumetazoa
+n44                 Hvulgaris           Cnidaria
+n51                 Dgigantea           Anthozoa
+n49                 Dgigantea           Anthozoa
+n47                 Dgigantea           Anthozoa
+n56                 Nvectensis          Anthozoa
+n54                 Nvectensis          Anthozoa
+n63                 Nvectensis          Anthozoa
+n61                 Nvectensis          Anthozoa
+Duplications: 28 
+
+
+Losses
+Species             No. of Losses  
+=================== ============== 
+Aplanci             4
+Anthozoa            0
+Myessoensis         4
+Dgigantea           0
+Bilateria           0
+Deuterostomia       0
+Eumetazoa           0
+Hvulgaris           0
+Chordata            0
+Hsapiens            2
+Nvectensis          0
+Bbelcheri           2
+Cnidaria            0
+
+Losses: 12
+
+
+Species             Duplications   cD_Nodes       Transfers_from Transfers_to   Losses         
+=================== ============== ============== ============== ============== ============== 
+Aplanci             2              0              0              0              4              
+Anthozoa            0              0              0              0              0              
+Myessoensis         3              0              0              0              4              
+Dgigantea           3              0              0              0              0              
+Bilateria           4              0              0              0              0              
+Deuterostomia       0              0              0              0              0              
+Eumetazoa           0              0              0              0              0              
+Hvulgaris           1              0              0              0              0              
+Chordata            0              0              0              0              0              
+Hsapiens            5              0              0              0              2              
+Nvectensis          4              0              0              0              0              
+Bbelcheri           5              0              0              0              2              
+Cnidaria            1              0              0              0              0              
+
+Duplications: 28
+Losses: 12
