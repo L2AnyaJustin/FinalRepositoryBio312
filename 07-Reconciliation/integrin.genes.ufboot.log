@@ -1,0 +1,160 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    ip-172-31-22-179.ec2.internal (AVX2, FMA3, 3 GB RAM)
+Command: iqtree -s integrin.blastp.detail.filtered.aligned_.fas -bb 1000 -nt 2 -m VT+F+R4 -t integrin.blastp.detail.filtered.aligned_.fas.treefile -pre integrin.genes.ufboot
+Seed:    578867 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Nov 18 06:38:15 2021
+Kernel:  AVX+FMA - 2 threads (2 CPU cores detected)
+
+Reading alignment file integrin.blastp.detail.filtered.aligned_.fas ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 37 sequences with 4366 columns, 2197 distinct patterns
+767 parsimony-informative, 1553 singleton sites, 2046 constant sites
+                                                           Gap/Ambiguity  Composition  p-value
+   1  Bbelcheri.XP_019628305.1                                    61.52%    failed      0.00%
+   2  Bbelcheri.XP_019639141.1                                    70.59%    failed      0.00%
+   3  Myessoensis.XP_021366399.1                                  81.93%    passed     26.04%
+   4  Bbelcheri.XP_019644417.1                                    39.12%    failed      0.00%
+   5  Hsapiens.NP_002205.1_integrin_beta-8_precursor              82.39%    failed      2.84%
+   6  Hsapiens.NP_000204.3_integrin_beta-4_isoform_1_precursor    58.27%    failed      0.00%
+   7  Myessoensis.XP_021365423.1                                  92.26%    failed      0.10%
+   8  Bbelcheri.XP_019635075.1                                    61.04%    failed      0.00%
+   9  Hvulgaris.XP_012556143.1                                    86.49%    failed      0.00%
+  10  Dgigantea.XP_028399538.1                                    81.97%    passed      5.36%
+  11  Bbelcheri.XP_019644414.1                                    66.24%    failed      0.00%
+  12  Hvulgaris.XP_002159375.3                                    84.91%    failed      0.02%
+  13  Myessoensis.XP_021360936.1                                  92.40%    failed      0.25%
+  14  Dgigantea.XP_028397583.1                                    81.72%    failed      0.18%
+  15  Nvectensis.XP_032222766.1                                   81.91%    passed     15.96%
+  16  Nvectensis.XP_032227253.1                                   97.57%    passed     19.43%
+  17  Nvectensis.XP_032230968.1                                   81.93%    passed      5.12%
+  18  Dgigantea.XP_028399547.1                                    83.26%    passed     22.70%
+  19  Dgigantea.XP_028399504.1                                    81.97%    passed     51.53%
+  20  Dgigantea.XP_028399622.1                                    87.06%    passed     11.10%
+  21  Hvulgaris.XP_012561761.1                                    82.27%    failed      0.00%
+  22  Hsapiens.NP_000202.3_integrin_beta-2_isoform_1_precursor    82.39%    passed     18.44%
+  23  Hsapiens.NP_000880.1_integrin_beta-7_precursor              81.72%    failed      0.00%
+  24  Myessoensis.XP_021366395.1                                  81.29%    failed      0.01%
+  25  Nvectensis.XP_032218281.1                                   81.93%    failed      0.85%
+  26  Nvectensis.XP_032218900.1                                   85.39%    passed     39.08%
+  27  Nvectensis.XP_032224682.1                                   82.68%    passed     38.66%
+  28  Hsapiens.NP_000879.2_integrin_beta-6_isoform_a_precursor    81.95%    failed      2.30%
+  29  Hsapiens.NP_000203.2_integrin_beta-3_precursor              81.95%    passed     82.67%
+  30  Hsapiens.NP_002204.2_integrin_beta-5_isoform_a_precursor    81.70%    passed     28.79%
+  31  Aplanci.XP_022079796.1                                      81.52%    passed     30.31%
+  32  Aplanci.XP_022083289.1                                      80.97%    failed      1.65%
+  33  Hsapiens.NP_002202.2_integrin_beta-1_isoform_1A_precursor   81.72%    failed      0.27%
+  34  Aplanci.XP_022079781.1                                      81.81%    passed     26.39%
+  35  Bbelcheri.XP_019635082.1                                    82.39%    passed     14.25%
+  36  Bbelcheri.XP_019615353.1                                    81.54%    passed     10.10%
+  37  Bbelcheri.XP_019623785.1                                    81.79%    failed      0.90%
+WARNING: 36 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                       79.72%  20 sequences failed composition chi2 test (p-value<5%; df=19)
+Reading input tree file integrin.blastp.detail.filtered.aligned_.fas.treefile ...
+Generating 1000 samples for ultrafast bootstrap (seed: 578867)...
+
+NOTE: 59 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -68208.582
+2. Current log-likelihood: -68083.276
+3. Current log-likelihood: -68064.355
+4. Current log-likelihood: -68058.214
+5. Current log-likelihood: -68055.597
+6. Current log-likelihood: -68053.948
+7. Current log-likelihood: -68052.790
+8. Current log-likelihood: -68051.894
+9. Current log-likelihood: -68051.195
+10. Current log-likelihood: -68050.647
+11. Current log-likelihood: -68050.218
+12. Current log-likelihood: -68049.865
+13. Current log-likelihood: -68049.655
+14. Current log-likelihood: -68049.465
+15. Current log-likelihood: -68049.293
+16. Current log-likelihood: -68049.133
+17. Current log-likelihood: -68048.991
+18. Current log-likelihood: -68048.861
+19. Current log-likelihood: -68048.743
+20. Current log-likelihood: -68048.629
+Optimal log-likelihood: -68048.485
+Site proportion and rates:  (0.082,0.122) (0.206,0.437) (0.370,0.915) (0.342,1.642)
+Parameters optimization took 20 rounds (14.440 sec)
+
+Do NNI search on 1 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -68048.361
+Finish initializing candidate tree set (2)
+Current best tree score: -68048.361 / CPU time: 1.595
+Number of iterations: 1
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 10 / LogL: -68048.698 / Time: 0h:0m:35s
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -68048.252
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -68047.407
+Iteration 20 / LogL: -68054.584 / Time: 0h:0m:57s
+Iteration 30 / LogL: -68048.115 / Time: 0h:1m:18s (0h:3m:44s left)
+Iteration 40 / LogL: -68047.784 / Time: 0h:1m:39s (0h:3m:6s left)
+Iteration 50 / LogL: -68054.001 / Time: 0h:2m:1s (0h:2m:35s left)
+Log-likelihood cutoff on original alignment: -68079.190
+Iteration 60 / LogL: -68054.902 / Time: 0h:2m:19s (0h:2m:5s left)
+Iteration 70 / LogL: -68051.099 / Time: 0h:2m:39s (0h:1m:39s left)
+Iteration 80 / LogL: -68047.424 / Time: 0h:2m:55s (0h:1m:13s left)
+Iteration 90 / LogL: -68047.640 / Time: 0h:3m:13s (0h:0m:49s left)
+Iteration 100 / LogL: -68058.588 / Time: 0h:3m:30s (0h:0m:27s left)
+Log-likelihood cutoff on original alignment: -68080.018
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 110 / LogL: -68049.923 / Time: 0h:3m:47s (0h:3m:7s left)
+TREE SEARCH COMPLETED AFTER 114 ITERATIONS / Time: 0h:3m:54s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -68047.407
+2. Current log-likelihood: -68047.362
+3. Current log-likelihood: -68047.330
+4. Current log-likelihood: -68047.302
+5. Current log-likelihood: -68047.278
+6. Current log-likelihood: -68047.257
+7. Current log-likelihood: -68047.238
+8. Current log-likelihood: -68047.220
+9. Current log-likelihood: -68047.205
+10. Current log-likelihood: -68047.191
+11. Current log-likelihood: -68047.178
+12. Current log-likelihood: -68047.167
+Optimal log-likelihood: -68047.155
+Site proportion and rates:  (0.076,0.111) (0.195,0.418) (0.354,0.873) (0.376,1.600)
+Parameters optimization took 12 rounds (8.282 sec)
+BEST SCORE FOUND : -68047.155
+Creating bootstrap support values...
+Split supports printed to NEXUS file integrin.genes.ufboot.splits.nex
+Total tree length: 36.457
+
+Total number of iterations: 114
+CPU time used for tree search: 438.804 sec (0h:7m:18s)
+Wall-clock time used for tree search: 219.679 sec (0h:3m:39s)
+Total CPU time used: 484.544 sec (0h:8m:4s)
+Total wall-clock time used: 242.608 sec (0h:4m:2s)
+
+Computing bootstrap consensus tree...
+Reading input file integrin.genes.ufboot.splits.nex...
+37 taxa and 297 splits.
+Consensus tree written to integrin.genes.ufboot.contree
+Reading input trees file integrin.genes.ufboot.contree
+Log-likelihood of consensus tree: -68047.360
+
+Analysis results written to: 
+  IQ-TREE report:                integrin.genes.ufboot.iqtree
+  Maximum-likelihood tree:       integrin.genes.ufboot.treefile
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          integrin.genes.ufboot.splits.nex
+  Consensus tree:                integrin.genes.ufboot.contree
+  Screen log file:               integrin.genes.ufboot.log
+
+Date and Time: Thu Nov 18 06:42:18 2021
