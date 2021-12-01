@@ -1,0 +1,25 @@
+    6  gunzip proteomes/*.gz
+    7  ls
+    8  blash -db allprotein.fas -query XP_032222766.1.fa -outfmt 0 -max_hsps 1 -out integrin.blastp.typical.out
+    9  blastp -db allprotein.fas -query XP_032222766.1.fa -outfmt 0 -max_hsps 1 -out integrin.blastp.typical.out
+   10  less integrin.blastp.typical.out
+   11  blastp -db allprotein.fas -query XP_032222766.1.fa -outfmt "6 sseqid pident length mismatch gapopen evalue bitscore pident stitle"  -max_hsps 1 -out integrin.blastp.detail.out
+   12  less integrin.blastp.detail.out
+   13  grep -c integrin.blastp.detail.out
+   14  awk '{if ($6<0.00000000000001)print $1 }' integrin.blastp.detail.out > integrin.blastp.detail.filtered.out
+   15  wc -1 integrin.blastp.detail.filtered.out
+   16  wc integrin.blastp.detail.filtered.out
+   17  wc -l integrin.blastp.detail.filtered.out
+   18  seqkit grep --pattern-file integrin.blastp.detail.filtered.out allprotein.fas > integrin.blastp.detail.filtered.fas
+   19  muscle -in integrin.blastp.detail.filtered.fas -out integrin.blastp.detail.filtered.aligned.fas
+   20   t_coffee -other_pg seq_reformat -in integrin.blastp.filtered.aligned.fas -output sim
+   21  muscle -in integrin.blastp.detail.filtered.fas -out integrin.blastp.detail.filtered.aligned.fas
+   22  muscle -in integrin.blastp.detail.filtered.fas -out 
+   23  muscle -in integrin.blastp.detail.filtered.fas -out sim
+   24  alv -k integrin.blastp.detail.filtered.aligned.fas | less -r
+   25  alv -kli --majority integrin.blastp.detail.filtered.aligned.fas | less -RS
+   26   t_coffee -other_pg seq_reformat -in integrin.blastp.detail.filtered.aligned.fas -action +rm_gap 50 -out integrin.blastp.filtered.aligned.r50.fas
+   27  alv -kli --majority integrin.blastp.detail.filtered.aligned.r50.fas | less -RS
+   28   t_coffee -other_pg seq_reformat -in integrin.blastp.detail.filtered.aligned.fas -action +rm_gap 50 -out integrin.blastp.detail.filtered.aligned.r50.fas
+   29  alv -kli --majority integrin.blastp.detail.filtered.aligned.r50.fas | less -RS
+   30  history > lab5Integrin.commandhistory.txt
