@@ -1,0 +1,261 @@
+IQ-TREE 2.1.1 COVID-edition built Aug 22 2020
+
+Input file name: integrin.blastp.detail.filtered.aligned_.fas
+User tree file name: integrin.blastp.detail.filtered.aligned_.fas.treefile
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 578867
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 37 sequences with 4366 amino-acid sites
+Number of constant sites: 2046 (= 46.8621% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2046 (= 46.8621% of all sites)
+Number of parsimony informative sites: 767
+Number of distinct site patterns: 2197
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: VT+F+R4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0532
+  pi(R) = 0.0478
+  pi(N) = 0.0499
+  pi(D) = 0.0628
+  pi(C) = 0.0601
+  pi(Q) = 0.0419
+  pi(E) = 0.0610
+  pi(G) = 0.0773
+  pi(H) = 0.0216
+  pi(I) = 0.0469
+  pi(L) = 0.0724
+  pi(K) = 0.0530
+  pi(M) = 0.0224
+  pi(F) = 0.0380
+  pi(P) = 0.0512
+  pi(S) = 0.0683
+  pi(T) = 0.0589
+  pi(W) = 0.0158
+  pi(Y) = 0.0338
+  pi(V) = 0.0637
+
+Model of rate heterogeneity: FreeRate with 4 categories
+Site proportion and rates:  (0.0757,0.1110) (0.1948,0.4181) (0.3535,0.8730) (0.3759,1.6000)
+
+ Category  Relative_rate  Proportion
+  1         0.1110         0.0757
+  2         0.4181         0.1948
+  3         0.8730         0.3535
+  4         1.6000         0.3759
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -68047.1553 (s.e. 1579.5718)
+Unconstrained log-likelihood (without tree): -29200.6919
+Number of free parameters (#branches + #model parameters): 96
+Akaike information criterion (AIC) score: 136286.3106
+Corrected Akaike information criterion (AICc) score: 136290.6732
+Bayesian information criterion (BIC) score: 136898.9445
+
+Total tree length (sum of branch lengths): 36.4571
+Sum of internal branch lengths: 6.6155 (18.1460% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Bbelcheri.XP_019628305.1' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++----------------------------------------------------------Bbelcheri.XP_019628305.1
+|
+|             +--------------------------------------------------Bbelcheri.XP_019639141.1
+|          +--| (50)
+|          |  |              +--------------------------Bbelcheri.XP_019635075.1
+|          |  |           +--| (76)
+|          |  |           |  +---------------------------------------Bbelcheri.XP_019644414.1
+|          |  |        +--| (72)
+|          |  |        |  |  +-----------Bbelcheri.XP_019615353.1
+|          |  |        |  +--| (100)
+|          |  |        |     +-----Bbelcheri.XP_019623785.1
+|          |  |     +--| (29)
+|          |  |     |  |  +---------------Aplanci.XP_022079796.1
+|          |  |     |  +--| (99)
+|          |  |     |     |  +-----------Aplanci.XP_022083289.1
+|          |  |     |     +--| (94)
+|          |  |     |        +-----Aplanci.XP_022079781.1
+|          |  |  +--| (28)
+|          |  |  |  |         +---------------Hvulgaris.XP_012556143.1
+|          |  |  |  |     +---| (100)
+|          |  |  |  |     |   +----------Hvulgaris.XP_012561761.1
+|          |  |  |  |  +--| (100)
+|          |  |  |  |  |  |            +---------Dgigantea.XP_028397583.1
+|          |  |  |  |  |  |  +---------| (100)
+|          |  |  |  |  |  |  |         |       +--Dgigantea.XP_028399547.1
+|          |  |  |  |  |  |  |         +-------| (100)
+|          |  |  |  |  |  |  |                 |  +--Dgigantea.XP_028399504.1
+|          |  |  |  |  |  |  |                 +--| (100)
+|          |  |  |  |  |  |  |                    +--Dgigantea.XP_028399622.1
+|          |  |  |  |  |  +--| (90)
+|          |  |  |  |  |     |     +-----Nvectensis.XP_032218281.1
+|          |  |  |  |  |     +-----| (100)
+|          |  |  |  |  |           |         +--Nvectensis.XP_032218900.1
+|          |  |  |  |  |           +---------| (100)
+|          |  |  |  |  |                     +--Nvectensis.XP_032224682.1
+|          |  |  |  +--| (100)
+|          |  |  |     |      +----------------Dgigantea.XP_028399538.1
+|          |  |  |     |   +--| (42)
+|          |  |  |     |   |  |  +------Nvectensis.XP_032222766.1
+|          |  |  |     |   |  +--| (98)
+|          |  |  |     |   |     |       +--Nvectensis.XP_032227253.1
+|          |  |  |     |   |     +-------| (100)
+|          |  |  |     |   |             +--Nvectensis.XP_032230968.1
+|          |  |  |     +---| (100)
+|          |  |  |         +--------------Hvulgaris.XP_002159375.3
+|          |  +--| (38)
+|          |     |            +----------Hsapiens.NP_000202.3_integrin_beta-2_isoform_1_precursor
+|          |     |      +-----| (100)
+|          |     |      |     +-----------Hsapiens.NP_000880.1_integrin_beta-7_precursor
+|          |     |  +---| (100)
+|          |     |  |   +-------Hsapiens.NP_002202.2_integrin_beta-1_isoform_1A_precursor
+|          |     +--| (80)
+|          |        +--------Bbelcheri.XP_019635082.1
+|       +--| (32)
+|       |  |   +------------------------Hsapiens.NP_002205.1_integrin_beta-8_precursor
+|       |  +---| (95)
+|       |      |  +----------Hsapiens.NP_000879.2_integrin_beta-6_isoform_a_precursor
+|       |      +--| (95)
+|       |         |  +-------Hsapiens.NP_000203.2_integrin_beta-3_precursor
+|       |         +--| (100)
+|       |            +---------Hsapiens.NP_002204.2_integrin_beta-5_isoform_a_precursor
+|    +--| (53)
+|    |  +-------------------------------Hsapiens.NP_000204.3_integrin_beta-4_isoform_1_precursor
++----| (94)
+|    |     +-----------------------Myessoensis.XP_021366399.1
+|    |  +--| (69)
+|    |  |  |     +-------------------------Myessoensis.XP_021365423.1
+|    |  |  +-----| (79)
+|    |  |        +-------------------------Myessoensis.XP_021360936.1
+|    +--| (71)
+|       +----------Myessoensis.XP_021366395.1
+|
++-----------------------------Bbelcheri.XP_019644417.1
+
+Tree in newick format:
+
+(Bbelcheri.XP_019628305.1:3.0971720945,((((Bbelcheri.XP_019639141.1:2.6839569149,(((((Bbelcheri.XP_019635075.1:1.4077542232,Bbelcheri.XP_019644414.1:2.0802722060)76:0.1885087738,(Bbelcheri.XP_019615353.1:0.6241942157,Bbelcheri.XP_019623785.1:0.3398591756)100:0.1894721876)72:0.1680206870,(Aplanci.XP_022079796.1:0.8329977014,(Aplanci.XP_022083289.1:0.6703672897,Aplanci.XP_022079781.1:0.3567609065)94:0.1213672895)99:0.1509878348)29:0.0598044191,(((Hvulgaris.XP_012556143.1:0.8315489819,Hvulgaris.XP_012561761.1:0.5884839013)100:0.2184675496,((Dgigantea.XP_028397583.1:0.5446906914,(Dgigantea.XP_028399547.1:0.0921096735,(Dgigantea.XP_028399504.1:0.0640685855,Dgigantea.XP_028399622.1:0.0952352847)100:0.0817983115)100:0.4402401977)100:0.5302185026,(Nvectensis.XP_032218281.1:0.3164959788,(Nvectensis.XP_032218900.1:0.0295475112,Nvectensis.XP_032224682.1:0.0311468306)100:0.5216060162)100:0.3159642413)90:0.1281307967)100:0.1714835422,((Dgigantea.XP_028399538.1:0.9013250849,(Nvectensis.XP_032222766.1:0.3829590892,(Nvectensis.XP_032227253.1:0.1996575505,Nvectensis.XP_032230968.1:0.0252609743)100:0.4600032973)98:0.1893412333)42:0.0442013102,Hvulgaris.XP_002159375.3:0.8037924698)100:0.2461922963)100:0.1577296798)28:0.0970746906,(((Hsapiens.NP_000202.3_integrin_beta-2_isoform_1_precursor:0.5879430057,Hsapiens.NP_000880.1_integrin_beta-7_precursor:0.6457762620)100:0.3138836853,Hsapiens.NP_002202.2_integrin_beta-1_isoform_1A_precursor:0.4433815436)100:0.2078141789,Bbelcheri.XP_019635082.1:0.4773765621)80:0.1076629412)38:0.0571690699)50:0.0237761958,(Hsapiens.NP_002205.1_integrin_beta-8_precursor:1.3029496575,(Hsapiens.NP_000879.2_integrin_beta-6_isoform_a_precursor:0.5765718188,(Hsapiens.NP_000203.2_integrin_beta-3_precursor:0.4162390259,Hsapiens.NP_002204.2_integrin_beta-5_isoform_a_precursor:0.5188968996)100:0.1416325594)95:0.1259563394)95:0.2267365507)32:0.0324147563,Hsapiens.NP_000204.3_integrin_beta-4_isoform_1_precursor:1.6704135298)53:0.0477851836,((Myessoensis.XP_021366399.1:1.2512729933,(Myessoensis.XP_021365423.1:1.3623135649,Myessoensis.XP_021360936.1:1.3877442484)79:0.3443438347)69:0.0680242837,Myessoensis.XP_021366395.1:0.6065192365)71:0.1471013431)94:0.2905685805,Bbelcheri.XP_019644417.1:1.5945278499);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -68047.360080
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------------------------------------------------Bbelcheri.XP_019628305.1
+|
+|             +---------------------------------------------------Bbelcheri.XP_019639141.1
+|          +--| (50)
+|          |  |              +--------------------------Bbelcheri.XP_019635075.1
+|          |  |           +--| (76)
+|          |  |           |  +---------------------------------------Bbelcheri.XP_019644414.1
+|          |  |        +--| (72)
+|          |  |        |  |  +-----------Bbelcheri.XP_019615353.1
+|          |  |        |  +--| (100)
+|          |  |        |     +-----Bbelcheri.XP_019623785.1
+|          |  |     +--| (29)
+|          |  |     |  |  +---------------Aplanci.XP_022079796.1
+|          |  |     |  +--| (99)
+|          |  |     |     |  +-----------Aplanci.XP_022083289.1
+|          |  |     |     +--| (94)
+|          |  |     |        +-----Aplanci.XP_022079781.1
+|          |  |  +--| (28)
+|          |  |  |  |         +---------------Hvulgaris.XP_012556143.1
+|          |  |  |  |     +---| (100)
+|          |  |  |  |     |   +----------Hvulgaris.XP_012561761.1
+|          |  |  |  |  +--| (100)
+|          |  |  |  |  |  |            +---------Dgigantea.XP_028397583.1
+|          |  |  |  |  |  |  +---------| (100)
+|          |  |  |  |  |  |  |         |       +--Dgigantea.XP_028399547.1
+|          |  |  |  |  |  |  |         +-------| (100)
+|          |  |  |  |  |  |  |                 |  +--Dgigantea.XP_028399504.1
+|          |  |  |  |  |  |  |                 +--| (100)
+|          |  |  |  |  |  |  |                    +--Dgigantea.XP_028399622.1
+|          |  |  |  |  |  +--| (90)
+|          |  |  |  |  |     |     +-----Nvectensis.XP_032218281.1
+|          |  |  |  |  |     +-----| (100)
+|          |  |  |  |  |           |         +--Nvectensis.XP_032218900.1
+|          |  |  |  |  |           +---------| (100)
+|          |  |  |  |  |                     +--Nvectensis.XP_032224682.1
+|          |  |  |  +--| (100)
+|          |  |  |     |   +----------------Dgigantea.XP_028399538.1
+|          |  |  |     +---| (100)
+|          |  |  |         |  +--------------Hvulgaris.XP_002159375.3
+|          |  |  |         +--| (56)
+|          |  |  |            |  +------Nvectensis.XP_032222766.1
+|          |  |  |            +--| (98)
+|          |  |  |               |       +--Nvectensis.XP_032227253.1
+|          |  |  |               +-------| (100)
+|          |  |  |                       +--Nvectensis.XP_032230968.1
+|          |  +--| (38)
+|          |     |            +----------Hsapiens.NP_000202.3_integrin_beta-2_isoform_1_precursor
+|          |     |      +-----| (100)
+|          |     |      |     +-----------Hsapiens.NP_000880.1_integrin_beta-7_precursor
+|          |     |  +---| (100)
+|          |     |  |   +-------Hsapiens.NP_002202.2_integrin_beta-1_isoform_1A_precursor
+|          |     +--| (80)
+|          |        +--------Bbelcheri.XP_019635082.1
+|       +--| (32)
+|       |  |   +------------------------Hsapiens.NP_002205.1_integrin_beta-8_precursor
+|       |  +---| (95)
+|       |      |  +----------Hsapiens.NP_000879.2_integrin_beta-6_isoform_a_precursor
+|       |      +--| (95)
+|       |         |  +-------Hsapiens.NP_000203.2_integrin_beta-3_precursor
+|       |         +--| (100)
+|       |            +---------Hsapiens.NP_002204.2_integrin_beta-5_isoform_a_precursor
+|    +--| (53)
+|    |  +-------------------------------Hsapiens.NP_000204.3_integrin_beta-4_isoform_1_precursor
++----| (94)
+|    |     +-----------------------Myessoensis.XP_021366399.1
+|    |  +--| (69)
+|    |  |  |     +-------------------------Myessoensis.XP_021365423.1
+|    |  |  +-----| (79)
+|    |  |        +-------------------------Myessoensis.XP_021360936.1
+|    +--| (71)
+|       +----------Myessoensis.XP_021366395.1
+|
++-----------------------------Bbelcheri.XP_019644417.1
+
+
+Consensus tree in newick format: 
+
+(Bbelcheri.XP_019628305.1:3.0861826478,((((Bbelcheri.XP_019639141.1:2.6784683132,(((((Bbelcheri.XP_019635075.1:1.4084188226,Bbelcheri.XP_019644414.1:2.0786496933)76:0.1854212840,(Bbelcheri.XP_019615353.1:0.6228894092,Bbelcheri.XP_019623785.1:0.3389284176)100:0.1883433711)72:0.1686082450,(Aplanci.XP_022079796.1:0.8317730048,(Aplanci.XP_022083289.1:0.6685886919,Aplanci.XP_022079781.1:0.3558812334)94:0.1205404022)99:0.1496956615)29:0.0605286007,(((Hvulgaris.XP_012556143.1:0.8266668053,Hvulgaris.XP_012561761.1:0.5873463961)100:0.2176352513,((Dgigantea.XP_028397583.1:0.5431222799,(Dgigantea.XP_028399547.1:0.0919884346,(Dgigantea.XP_028399504.1:0.0639485728,Dgigantea.XP_028399622.1:0.0949691411)100:0.0814692842)100:0.4391506828)100:0.5293504218,(Nvectensis.XP_032218281.1:0.3144751484,(Nvectensis.XP_032218900.1:0.0294791279,Nvectensis.XP_032224682.1:0.0310745503)100:0.5216544353)100:0.3166852532)90:0.1260222238)100:0.1708883728,(Dgigantea.XP_028399538.1:0.8885918755,(Hvulgaris.XP_002159375.3:0.8013089204,(Nvectensis.XP_032222766.1:0.3785663450,(Nvectensis.XP_032227253.1:0.2000804244,Nvectensis.XP_032230968.1:0.0245653805)100:0.4623810880)98:0.1752186096)56:0.0695927272)100:0.2391823397)100:0.1580367603)28:0.0972949631,(((Hsapiens.NP_000202.3_integrin_beta-2_isoform_1_precursor:0.5866265647,Hsapiens.NP_000880.1_integrin_beta-7_precursor:0.6443260345)100:0.3138613127,Hsapiens.NP_002202.2_integrin_beta-1_isoform_1A_precursor:0.4416147878)100:0.2070532744,Bbelcheri.XP_019635082.1:0.4763651395)80:0.1092721499)38:0.0600320231)50:0.0190388499,(Hsapiens.NP_002205.1_integrin_beta-8_precursor:1.2998975164,(Hsapiens.NP_000879.2_integrin_beta-6_isoform_a_precursor:0.5751640907,(Hsapiens.NP_000203.2_integrin_beta-3_precursor:0.4151497318,Hsapiens.NP_002204.2_integrin_beta-5_isoform_a_precursor:0.5176525538)100:0.1415345428)95:0.1250191453)95:0.2270631253)32:0.0310480284,Hsapiens.NP_000204.3_integrin_beta-4_isoform_1_precursor:1.6672016686)53:0.0484456851,((Myessoensis.XP_021366399.1:1.2479104916,(Myessoensis.XP_021365423.1:1.3601551513,Myessoensis.XP_021360936.1:1.3879736617)79:0.3429228830)69:0.0680585732,Myessoensis.XP_021366395.1:0.6064530033)71:0.1469594037)94:0.2957260215,Bbelcheri.XP_019644417.1:1.5874490518);
+
+TIME STAMP
+----------
+
+Date and time: Thu Nov 18 06:42:18 2021
+Total CPU time used: 484.543737 seconds (0h:8m:4s)
+Total wall-clock time used: 243.360842 seconds (0h:4m:3s)
