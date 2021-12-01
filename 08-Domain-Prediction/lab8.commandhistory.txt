@@ -1,0 +1,23 @@
+   11  cd ~/labs
+   12  git clone https://github.com/Bio312/lab8-L2AnyaJustin
+   13  cd lab8-L2AnyaJustin
+   14  cat ~/labs/lab8-myusername/maguk/*.tsv.tsv > ~/labs/lab8-myusername/maguk.domains.all.tsv
+   15  cd ~/labs/lab8-myusername/maguk
+   16  cat ~/labs/lab8-L2AnyaJustin/maguk/*.tsv.tsv > ~/labs/lab8-L2AnyaJustin/maguk.domains.all.
+   17  grep Pfam ~/labs/lab8-myusername/maguk.domains.all.tsv >  ~/labs/lab8-myusername/maguk.domains.pfam.tsv
+   18  grep Pfam ~/labs/lab8-L2AnyaJustin/maguk.domains.all.tsv >  ~/labs/lab8-L2AnyaJustin/maguk.domains.pfam.tsv
+   19  cat ~/labs/lab8-L2AnyaJustin/maguk/*.tsv.tsv > ~/labs/lab8-L2AnyaJustin/maguk.domains.all.
+   20  grep Pfam ~/labs/lab8-L2AnyaJustin/maguk.domains.all.tsv >  ~/labs/lab8-L2AnyaJustin/maguk.domains.pfam.tsv
+   21  cat ~/labs/lab8-L2AnyaJustin/maguk/*.tsv.tsv > ~/labs/lab8-L2AnyaJustin/maguk.domains.all.tsv
+   22  grep Pfam ~/labs/lab8-L2AnyaJustin/maguk.domains.all.tsv >  ~/labs/lab8-L2AnyaJustin/maguk.domains.pfam.tsv
+   23  awk 'BEGIN{FS="\t"} {print $1"\t"$3"\t"$7"@"$8"@"$5}' ~/labs/lab8-L2AnyaJustin/maguk.domains.pfam.tsv | datamash -sW --group=1,2 collapse 3 | sed 's/,/\t/g' | sed 's/@/,/g' > ~/labs/lab8-L2AnyaJustin/maguk.domains.pfam.evol.tsv
+   24       git push 
+   25  git add .
+   26  git commit -a -m "Adding all new data files I generated in AWS to the repository."
+   27  git pull --no-edit
+   28       git push 
+   29   cut -f 1 maguk.domains.pfam.tsv | sort | uniq -c
+   30  grep Hsapiens.NP_001317168.1_tight_junction_protein_ZO-1_isoform_e maguk.domains.pfam.tsv |less -S
+   31  grep XP_032239065.1 maguk.domains.pfam.tsv |less -S
+   32  grep XP_032239066.1 maguk.domains.pfam.tsv |less -S
+   33   history > lab8.commandhistory.txt
