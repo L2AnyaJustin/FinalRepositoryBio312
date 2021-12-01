@@ -1,0 +1,77 @@
+/-------------------------------------+ Bbelcheri.XP 019628305.1
+ |
+ |     /--------------------------------+ Bbelcheri.XP 019639141.1
+ |     |
+ |     /   /----------------+ Bbelcheri.XP 019635075.1
+ |     | /-+
+ |     | | \-------------------------+ Bbelcheri.XP 019644414.1
+ |     \-+
+ |     | | /------+ Bbelcheri.XP 019615353.1
+ |     / \-+
+ |     |   \---+ Bbelcheri.XP 019623785.1
+ |     |
+ |     | /--------+ Aplanci.XP 022079796.1
+ |     | |
+ |     \-+/-------+ Aplanci.XP 022083289.1
+ |     | \+
+ |     |  \---+ Aplanci.XP 022079781.1
+ |     |
+ |     |     /--------+ Hvulgaris.XP 012556143.1
+ |     |  /--+
+ |     |  |  \-----+ Hvulgaris.XP 012561761.1
+ |    /+  |
+ |    ||  |       /-----+ Dgigantea.XP 028397583.1
+ |    || /+       |
+ |    || || /-----+    /+ Dgigantea.XP 028399547.1
+ |    || || |     |    |
+ |    || || |     \----+/ Dgigantea.XP 028399504.1
+ |    || || |          \+
+ |    || |\-+           \+ Dgigantea.XP 028399622.1
+ |    || |  |
+ |    || |  |  /---+ Nvectensis.XP 032218281.1
+ |    || |  |  |
+ |    |\-+  \--+     /+ Nvectensis.XP 032218900.1
+ |    |  |     \-----+
+ |    |  |           \+ Nvectensis.XP 032224682.1
+ |   /+  |
+=+   ||  |  /---------+ Dgigantea.XP 028399538.1
+ |   ||  |  |
+ |   ||  | /+ /---+ Nvectensis.XP 032222766.1
+ |   ||  | || |
+ |   ||  | |\-+    /-+ Nvectensis.XP 032227253.1
+ |   ||  \-+  \----+
+ |   ||    |       \ Nvectensis.XP 032230968.1
+ |   ||    |
+ |   ||    \--------+ Hvulgaris.XP 002159375.3
+ |   ||
+ |   /|      /-----+ Hsapiens.NP 000202.3 integrin beta-2 isoform 1 precursor
+ |   ||  /---+
+ |   ||/-+   \------+ Hsapiens.NP 000880.1 integrin beta-7 precursor
+ |   ||| |
+ |   |\+ \----+ Hsapiens.NP 002202.2 integrin beta-1 isoform 1A precursor
+ |   | |
+ |   | \----+ Bbelcheri.XP 019635082.1
+ |   |
+ |  /| /--------------+ Hsapiens.NP 002205.1 integrin beta-8 precursor
+ |  || |
+ |  |\-+ /-----+ Hsapiens.NP 000879.2 integrin beta-6 isoform a precursor
+ |  || | |
+ |  || \-+/----+ Hsapiens.NP 000203.2 integrin beta-3 precursor
+ |  ||   \+
+ |  ||    \-----+ Hsapiens.NP 002204.2 integrin beta-5 isoform a precursor
+ +--+|
+ |  |\------------------+ Hsapiens.NP 000204.3 integrin beta-4 isoform 1 precursor
+ |  |
+ |  | /--------------+ Myessoensis.XP 021366399.1
+ |  | |
+ |  | /    /---------------+ Myessoensis.XP 021365423.1
+ |  | \----+
+ |  \-+    \---------------+ Myessoensis.XP 021360936.1
+ |    |
+ |    \------+ Myessoensis.XP 021366395.1
+ |
+ \------------------+ Bbelcheri.XP 019644417.1
+
+ |---------|--------|---------|---------|
+ 0         1        2         3         4
+ substitutions/site
